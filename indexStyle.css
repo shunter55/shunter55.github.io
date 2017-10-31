@@ -1,0 +1,125 @@
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.header {
+	background-image: url(Images/Tree.png), url(Images/WindmillBase.png), url(Images/Background3.png);
+	background-color: #19E1BF;
+	width: 100%;
+	position: relative;
+	background-size: 150px, 700px;
+	background-attachment: fixed;
+	background-position: center bottom, center bottom;
+	background-repeat: no-repeat;
+}
+
+div.millHeader {
+	background-image: url(Images/WindmillBlades.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.appleHeader {
+	background-image: url(Images/Apple.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 3;
+}
+
+div.archerLegsHeader {
+	background-image: url(Images/Archer-Legs.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.archerBodyHeader {
+	background-image: url(Images/Archer-Body.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.archerHeadHeader {
+	background-image: url(Images/Archer-Head.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.archerBowHeader {
+	background-image: url(Images/Archer-Bow.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.archerArmUpperHeader {
+	background-image: url(Images/Archer-ArmUpper2.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.archerArmLowerHeader {
+	background-image: url(Images/Archer-ArmLower2.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+div.arrowHeader {
+	background-image: url(Images/Arrow.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 2;
+}
+
+div.cloud1 {
+	background-image: url(Images/Cloud1.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 1;
+}
+
+.nameHeading {
+	font-family: "OrangeJuice";
+	position: fixed;
+	color: #0d80d9;
+	z-index: 2;
+}
+
+.tree {
+	position: relative;	
+}
+
+div.portfolio {
+	background-color: #d8eaa4;
+	height: 10000px;
+	
+	position: relative;
+	padding-top: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	z-index: 100;
+}
+
+@font-face {
+	font-family: "OrangeJuice";
+	src: url("Fonts/OrangeJuice.ttf");
+}
+
+@font-face {
+	font-family: "BornAddict";
+	src: url("Fonts/BornAddict.ttf");
+}
+
+@font-face {
+	font-family: "ComicBook";
+	src: url("Fonts/ComicBook.ttf");
+}
