@@ -162,7 +162,7 @@ var resizeHeader = function() {
 
    $("#header").height($(window).height());
 
-   $("#body1").text("Window Size - Width: " + $(window).width() + " Height: " + $(window).height());
+   //$("#body1").text("Window Size - Width: " + $(window).width() + " Height: " + $(window).height());
 }
 
 // Call on document start.
